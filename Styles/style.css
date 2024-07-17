@@ -163,8 +163,9 @@ main{
     flex-direction: column;
   }
 
-  .team-image-container{
-    grid-template-columns: repeat(1,1fr);
+  .team-image-container, .facts-container{
+   
+    grid-template-columns: 1fr;
   }
 
   .our-features{
@@ -173,11 +174,14 @@ main{
 
  }
 
+
  /* some fact related styels */
 
  .fact-description{
   max-width:540px;
+  margin-bottom: 30px;
  }
+ 
  .facts-container{
   display:grid;
   grid-template-columns: repeat(4,1fr);
